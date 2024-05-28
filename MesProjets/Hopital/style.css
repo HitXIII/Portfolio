@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(36, 75, 90);
+    color: antiquewhite;     
+}
+
+h1{
+    color: rgb(61, 9, 9);
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 3px solid rgb(40, 40, 58);
+    width: 50%;
+    margin: 50px auto; 
+    border-radius: 10px;
+}
+
+form{
+    width: 35%;
+    /* background-color: rgb(63, 60, 60); */
+    padding: 15px;
+    margin : 0 auto;
+}
+
+input[type=text], input[type=password], textarea, select, input[type=submit]{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    /* height: 25px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    letter-spacing: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(96, 89, 89);
+}
+
+table{
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+tr, td{
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+th{
+    background-color: rgb(142, 107, 62);
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: rgb(117, 186, 214);
+    color: rgb(45, 42, 42);
+}
