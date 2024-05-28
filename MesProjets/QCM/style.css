@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: 20px auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+th{
+    height: 30px;
+    background-color: rgb(87, 83, 83);
+    color: white;
+    font-size: 20px;
+}
+
+tr:hover{
+    background-color:  rgb(132, 128, 128);
+    color: aliceblue;
+}
+
+form{
+    text-align: center;
+}
